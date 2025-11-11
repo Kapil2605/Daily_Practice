@@ -1,0 +1,5 @@
+Scanner sc= new Scanner(System.in)
+
+int x=sc.nextInt(); //input lene ke liye
+
+String input=x.parse(x);
