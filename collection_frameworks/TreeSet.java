@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Declare a TreeSet of integers (ordered, unique)
+        // Declare a TreeSet of integers (ordered, unique,increasing or decreasing sequence)
         Set<Integer> s = new TreeSet<>();
 
         // Insert elements (duplicates ignored automatically)

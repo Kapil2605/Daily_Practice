@@ -1,7 +1,8 @@
 //java TreeMap vs map in c++
-import java.util.*;
+import java.util.Map;
+import java.util.TreeMap;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // TreeMap sorts keys automatically
         TreeMap<String, Integer> marks = new TreeMap<>();
@@ -10,7 +11,19 @@ public class Main {
         marks.put("Ram", 90);
         marks.put("Shyam", 85);
         marks.put("Mohan", 95);
-
+		
+		//Iterate or display the whole tree
+		System.out.println("TreeMap: "+marks);
+		
+		//Key in the treemap
+		System.out.println("Key: "+marks.keySet());
+		
+		//values of all the key
+		System.out.println("Values: "+marks.values());
+		
+		//Get value of particular key
+		System.out.println("Get value of key: "+marks.get("Ram"));
+		
         // Duplicate key (overwrites)
         marks.put("Ram", 99);
 
@@ -38,7 +51,7 @@ public class Main {
 }
 
 //c++ map code
-#include <bits/stdc++.h>
+//#include <bits/stdc++.h>
 // using namespace std;
 
 // int main() {

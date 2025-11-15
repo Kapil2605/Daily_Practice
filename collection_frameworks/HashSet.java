@@ -1,4 +1,4 @@
-//Hashset in java
+//Hashset in java - unordered collection of data but no duplicacy allowed
 import java.util.*;
 
 public class Main {
@@ -31,6 +31,17 @@ public class Main {
         // Clear all elements
         s.clear();
         System.out.println("Set empty? " + (s.isEmpty() ? "Yes" : "No"));
+		
+		
+		
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
+
+        // Insert elements in sequence like whatever comes at index 1 will be sitted there forever
+        lhs.add(10);
+        lhs.add(20);
+        lhs.add(5);
+        lhs.add(10); // duplicate ignored
+
     }
 }
 
