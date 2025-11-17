@@ -1,7 +1,7 @@
 //HashMap in java vs unordered_map in c++
-import java.util.*;
-
-public class Main {
+import java.util.HashMap;
+import java.util.Map;
+class Main {
     public static void main(String[] args) {
         HashMap<String, Integer> marks = new HashMap<>();
 
@@ -12,6 +12,8 @@ public class Main {
 
         // Duplicate key (overwrites)
         marks.put("Ram", 99);
+		marks.put("Ram", 85);
+		
 
         System.out.println("Marks of students (unordered):");
         for (Map.Entry<String, Integer> e : marks.entrySet()) {
