@@ -1,0 +1,69 @@
+java shortcuts for eclipse
+
+1. Debugging shortcuts
+Shortcut	Use
+ctrl+ F2 for close the running debug
+F11	Debug start
+F6	Step Over
+F5	Step Into
+F7	Step Return
+F8	Resume
+Ctrl + Shift + B	Toggle Breakpoint
+Ctrl + Shift + I	Inspect
+Alt + Shift + D, J	Debug Java Application
+
+2.
+1. Auto-formatting (Code Clean karne ke liye)
+✔ Shortcut: Ctrl + Shift + F
+2. Auto-organize imports like Scanner String
+✔ Shortcut: Ctrl + Shift + O
+
+🚀 3. Quick Fix (Red error ka turant solution)
+✔ Shortcut: Ctrl + 1
+
+	4.ctrl + F11 to run the code
+🚀 5. Move Code / Lines
+✔ Move line up: Alt + ↑
+✔ Move line down: Alt + ↓
+
+🚀 6. Duplicate Line
+✔ Shortcut: Ctrl + Alt + 
+
+🚀 7. Delete Line
+✔ Shortcut: Ctrl + D
+
+🚀 8. Show Documentation (method ka meaning)
+✔ Shortcut: F2
+
+🚀 9. Go to Definition
+✔ Shortcut: F3
+
+🚀 11. Surround with (open terminal)
+✔ Shortcut: Ctrl + Alt + T
+
+	12. Clear Console
+	Shortcut → Ctrl + L
+
+🚀 15. Comment / Uncomment
+
+✔ Single-line comment: Ctrl + /
+✔ Block comment: Ctrl + Shift + /
+✔ Uncomment block: *Ctrl + Shift + *
+
+💎 BONUS: Perspective switching
+✔ Debug perspective: Alt + Shift + D, J
+✔ Run perspective: Alt + Shift + X, J
+
+🟢 16. Run with Arguments (args[])
+Run → Run Configurations → Java Application → Arguments tab → Program arguments
+
+🟠 9. Run Selected File / Line / Method
+Agar tum Method ke upar cursor rakhkar Ctrl + F11 karoge,
+
+
+left right sidebar wapas laane ke liye
+✅ Window menu par jao
+
+Show View → search like package explorer, variables,breakpoints
+
+Sidebar wapas aa jayega
